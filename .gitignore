@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+eden_desk_customisations/docs/current
+node_modules/

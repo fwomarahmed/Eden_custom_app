@@ -1,0 +1,24 @@
+.dropdown-help {
+  display: none !important;
+}
+
+form.form-inline.fill-width.justify-content-end {
+  justify-content: center !important;
+}
+
+.standard-sidebar-label {
+  display: none;
+}
+
+body.full-width .container {
+  width: 100%;
+}
+@media (min-width: 1440px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1440px;
+  }
+}

@@ -1,16 +1,36 @@
 app_name = "eden_desk_customisations"
 app_title = "Eden Desk Customisations"
-app_publisher = "M-Wahba"
+app_publisher = "Mahmod-Wahba"
 app_description = "Desk Customisations"
-app_email = "eden@gmail.com"
+app_email = "mahmoud.wahab.dev@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/eden_desk_customisations/css/eden_desk_customisations.css"
-# app_include_js = "/assets/eden_desk_customisations/js/eden_desk_customisations.js"
+app_include_css = "/assets/eden_desk_customisations/css/eden_desk_customisations.css"
+app_include_js = "/assets/eden_desk_customisations/js/eden_desk_customisations.js"
+
+# include custom template for navbar
+app_include_template = "/public/js/eden_desk_customisations/ui/toolbar/custom_navbar.html"
+
+
+
+
+# fixtures = ["System Settings"]
+fixtures = [
+    {
+        "doctype": "System Settings"
+    },
+    {
+        "doctype": "Workspace",
+        "filters": {"name": ["in", ["ERPNext Settings", "Integration", "ERPNext Integration", "Build"]]},
+        "data": [
+            {"is_hidden": 1}
+        ]
+    }
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/eden_desk_customisations/css/eden_desk_customisations.css"

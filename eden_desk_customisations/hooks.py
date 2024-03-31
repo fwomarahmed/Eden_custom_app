@@ -16,8 +16,6 @@ app_include_js = "/assets/eden_desk_customisations/js/eden_desk_customisations.j
 app_include_template = "/public/js/eden_desk_customisations/ui/toolbar/custom_navbar.html"
 
 
-
-
 # fixtures = ["System Settings"]
 fixtures = [
     {

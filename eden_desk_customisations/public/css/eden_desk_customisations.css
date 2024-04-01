@@ -19,6 +19,6 @@ body.full-width .container {
   .container-md,
   .container-sm,
   .container {
-    max-width: 1440px;
+    max-width: 100%;
   }
 }

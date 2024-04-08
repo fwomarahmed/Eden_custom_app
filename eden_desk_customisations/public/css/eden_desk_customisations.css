@@ -1,6 +1,13 @@
 :root {
   --primary: #2159a6;
 }
+a,
+#navbar-breadcrumbs li.disabled a {
+  color: white;
+}
+a:hover{
+  color: inherit;
+}
 
 .dropdown-help {
   display: none !important;
@@ -79,6 +86,10 @@ body.full-width .container {
   padding-right: 5px;
   padding-left: 0;
   max-width: 15%;
+}
+
+#navbar-breadcrumbs a:before {
+  filter: invert(100%);
 }
 
 @media (max-width: 1440px) {

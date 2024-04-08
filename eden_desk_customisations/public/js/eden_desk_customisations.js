@@ -12,4 +12,14 @@ $(document).ready(function () {
 
   // Append the text next to the logo image
   $navbarBrand.append("<span> Eden ERP</span>");
+
+
+
+
+    // Select the heart icon element
+    var $heartIcon = $('.like-icon');
+console.log($heartIcon);
+    // Replace the heart icon with the star icon
+    $heartIcon.attr('href', '#icon-star');
+    $heartIcon.attr('class', 'bg-info');
 });

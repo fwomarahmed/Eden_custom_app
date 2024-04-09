@@ -91,6 +91,10 @@ body.full-width .container {
 #navbar-breadcrumbs a:before {
   filter: invert(100%);
 }
+.liked use.like-icon {
+  stroke: none;
+  fill: #5d86be;
+}
 
 @media (max-width: 1440px) {
   .container-xl,

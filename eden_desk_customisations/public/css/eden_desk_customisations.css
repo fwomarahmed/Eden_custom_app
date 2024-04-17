@@ -8,6 +8,9 @@ a,
 a:hover{
   color: inherit;
 }
+.form-grid-container a {
+  color: black;
+}
 
 .dropdown-help {
   display: none !important;

@@ -48,7 +48,7 @@
   "max_auto_email_report_per_user": 20,
   "max_file_size": 0,
   "minimum_password_score": "2",
-  "modified": "2024-03-30 16:58:01.813660",
+  "modified": "2024-04-20 15:02:24.285065",
   "name": "System Settings",
   "number_format": "#,###.##",
   "otp_issuer_name": "Frappe Framework",
@@ -63,6 +63,6 @@
   "strip_exif_metadata_from_uploaded_images": 1,
   "time_format": "HH:mm:ss",
   "time_zone": "Africa/Cairo",
-  "two_factor_method": "OTP App"
+  "two_factor_method": "Email"
  }
 ]

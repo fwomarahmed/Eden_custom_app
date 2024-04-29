@@ -5,13 +5,18 @@ a,
 #navbar-breadcrumbs li.disabled a {
   color: white;
 }
+
 a:hover{
   color: inherit;
 }
+
 .form-grid-container a {
   color: black;
 }
+.form-dashboard-section a {
+  color: black;
 
+}
 .dropdown-help {
   display: none !important;
 }

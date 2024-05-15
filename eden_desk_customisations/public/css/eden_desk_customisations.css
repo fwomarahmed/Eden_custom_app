@@ -1,8 +1,8 @@
 :root {
   --primary: #2159a6;
 }
-a,
-#navbar-breadcrumbs li.disabled a {
+
+header #navbar-breadcrumbs a {
   color: white;
 }
 

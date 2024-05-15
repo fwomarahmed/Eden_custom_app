@@ -3,7 +3,7 @@
 }
 
 header #navbar-breadcrumbs a {
-  color: white;
+  color: white !important;
 }
 
 a:hover {

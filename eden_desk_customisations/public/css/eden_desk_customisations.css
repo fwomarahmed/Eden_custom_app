@@ -6,10 +6,10 @@ header #navbar-breadcrumbs a {
   color: white !important;
 }
 .navbar navbar-expand{
-  color: #2159a6 !important;
+  background-color: #2159a6 !important;
 }
 .navbar{
-  color: #2159a6 !important;
+  background-color: #2159a6 !important;
 }
 a:hover {
   color: inherit;

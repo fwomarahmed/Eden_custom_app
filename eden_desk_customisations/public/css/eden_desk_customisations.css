@@ -14,7 +14,8 @@ header #navbar-breadcrumbs a {
 a:hover {
   color: inherit;
 }
-.page-specific-class .link-field.ui-front {
+.link-field.ui-front {
+
   display: none !important;
 }
 

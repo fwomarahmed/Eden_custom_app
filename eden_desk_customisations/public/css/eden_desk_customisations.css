@@ -14,10 +14,6 @@ header #navbar-breadcrumbs a {
 a:hover {
   color: inherit;
 }
-.link-field.ui-front {
-
-  display: none !important;
-}
 
 .form-grid-container a,
 .section-body .badge-link .section-body .form-column a,

@@ -15,6 +15,10 @@ a:hover {
   color: inherit;
 }
 
+.control-input-wrapper .control-input input {
+  pointer-events: none; /* Disables click and focus events */
+  user-select: none;    /* Prevents text selection */
+ }
 .form-grid-container a,
 .section-body .badge-link .section-body .form-column a,
 a.grey,

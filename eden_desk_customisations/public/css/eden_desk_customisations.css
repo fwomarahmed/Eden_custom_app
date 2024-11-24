@@ -20,6 +20,10 @@ a:hover {
 .btn-login{
   background-color: #ED1C24;
 }
+#navbar-breadcrumbs a {
+  pointer-events: none;
+  cursor: default;
+}
 /* 
 .control-input-wrapper .control-input input {
   pointer-events: none; 

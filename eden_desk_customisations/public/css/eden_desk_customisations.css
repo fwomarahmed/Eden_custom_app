@@ -1,15 +1,15 @@
 :root {
-  --primary: #2159a6;
+  --primary: #ED1C24;
 }
 
 header #navbar-breadcrumbs a {
   color: white !important;
 }
 .navbar navbar-expand{
-  background-color: #2159a6 !important;
+  background-color: #ED1C24 !important;
 }
 .navbar{
-  background-color: #2159a6 !important;
+  background-color: #ED1C24 !important;
 }
 a:hover {
   color: inherit;
@@ -51,7 +51,7 @@ body.full-width .container {
 }
 
 .main-section header.navbar.navbar-expand.sticky-top {
-  background-color: #2159a6 !important;
+  background-color: #ED1C24 !important;
   color: white !important;
 }
 

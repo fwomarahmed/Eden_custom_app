@@ -14,6 +14,12 @@ header #navbar-breadcrumbs a {
 a:hover {
   color: inherit;
 }
+.page-card-head img{
+  max-height: 6rem;  
+}
+.btn-login{
+  background-color: #ED1C24;
+}
 /* 
 .control-input-wrapper .control-input input {
   pointer-events: none; 

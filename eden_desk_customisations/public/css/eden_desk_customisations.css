@@ -23,6 +23,11 @@ a:hover {
 #navbar-breadcrumbs a {
   pointer-events: none;
   cursor: default;
+
+}
+.navbar-brand.navbar-home {
+  pointer-events: none !important; /* Disable all interactions */
+  cursor: default !important;     /* Change cursor to default arrow */
 }
 /* 
 .control-input-wrapper .control-input input {

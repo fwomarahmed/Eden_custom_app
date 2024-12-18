@@ -11,5 +11,5 @@ $(document).ready(function () {
   var $navbarBrand = $(".navbar-brand");
 
   // Append the text next to the logo image
-  $navbarBrand.append("<span> Eden</span>");
+  // $navbarBrand.append("<span> Eden</span>");
 });

@@ -1,15 +1,15 @@
 :root {
-  --primary: #ED1C24;
+  --primary: #2159A6;
 }
 
 header #navbar-breadcrumbs a {
   color: white !important;
 }
 .navbar navbar-expand{
-  background-color: #ED1C24 !important;
+  background-color: #2159A6 !important;
 }
 .navbar{
-  background-color: #ED1C24 !important;
+  background-color: #2159A6 !important;
 }
 a:hover {
   color: inherit;
@@ -17,18 +17,8 @@ a:hover {
 .page-card-head img{
   max-height: 6rem;  
 }
-.btn-login{
-  background-color: #ED1C24;
-}
-#navbar-breadcrumbs a {
-  pointer-events: none;
-  cursor: default;
 
-}
-.navbar-brand.navbar-home {
-  pointer-events: none !important; /* Disable all interactions */
-  cursor: default !important;     /* Change cursor to default arrow */
-}
+
 /* 
 .control-input-wrapper .control-input input {
   pointer-events: none; 
@@ -66,7 +56,7 @@ body.full-width .container {
 }
 
 .main-section header.navbar.navbar-expand.sticky-top {
-  background-color: #ED1C24 !important;
+  background-color: #2159A6 !important;
   color: white !important;
 }
 

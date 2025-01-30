@@ -71,8 +71,8 @@ body.full-width .container {
 }
 
 .navbar-home img {
-  width: 70px !important;
-  height: 70px;
+  width: 80px !important;
+  height: 80px;
 }
 .main-section .navbar svg.icon.icon-md {
   fill: white !important;
@@ -141,4 +141,9 @@ body.full-width .container {
     display: flex;
     flex-direction: column;
   }
+}
+#navbar-breadcrumbs a {
+  pointer-events: none;
+  cursor: default;
+  color: white !important;
 }

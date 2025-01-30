@@ -20,10 +20,10 @@ a:hover {
 
 
 
-.control-input-wrapper .control-input input {
+/* .control-input-wrapper .control-input input {
   pointer-events: none; 
   user-select: none;    
- }
+ } */
  
 .form-grid-container a,
 .section-body .badge-link .section-body .form-column a,

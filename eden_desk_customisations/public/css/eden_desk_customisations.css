@@ -1,15 +1,15 @@
 :root {
-  --primary: #2159A6;
+  --primary: #ca0606;
 }
 
 header #navbar-breadcrumbs a {
   color: white !important;
 }
 .navbar navbar-expand{
-  background-color: #2159A6 !important;
+  background-color: #ca0606 !important;
 }
 .navbar{
-  background-color: #2159A6 !important;
+  background-color: #ca0606 !important;
 }
 a:hover {
   color: inherit;
@@ -19,12 +19,12 @@ a:hover {
 }
 
 
-/* 
+
 .control-input-wrapper .control-input input {
   pointer-events: none; 
   user-select: none;    
  }
-  */
+ 
 .form-grid-container a,
 .section-body .badge-link .section-body .form-column a,
 a.grey,
@@ -56,7 +56,7 @@ body.full-width .container {
 }
 
 .main-section header.navbar.navbar-expand.sticky-top {
-  background-color: #2159A6 !important;
+  background-color: #ca0606 !important;
   color: white !important;
 }
 
